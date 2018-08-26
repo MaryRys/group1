@@ -1,5 +1,6 @@
 body {
-    background-color: white;
+    background-color: #455A64;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #productContainer {
@@ -7,14 +8,39 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
 }
+header {
+    display: block;
+    border: 1px solid lightblue;
+    text-align: center;
+    background-color: #CFD8DC;
+}
+.availability {
+    background-color: darkgray;
+    color: yellow;
+    padding: 0;
+}
+.image__productCard {
+    padding: 0;
+}
+.footer__productCard {
+    font-size: 8pt;
+}
+
+.product_specs {
+    font-weight: bold;
+    padding: 1%;
+    color: #FFFFFF;
+}
 .productCard {
     box-sizing: border-box;
-    background-color: lightsalmon;
+    background-color: #607D8B;
     width: 30%;
     margin: 1%;
-    text-align: center;
-    border-style: 1px solid lightblue;
+    text-align: left;
+    color: #03A9F4;
+    box-shadow: 5px 5px 5px silver;
 }
 .image__productCard {
     max-width: 100%;
+    align-self: auto;
 }
