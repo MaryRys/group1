@@ -21,6 +21,14 @@ header {
 }
 .image__productCard {
     padding: 0;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.sold__out {
+    position: absolute;
+    top: 30px;
+    left: 150px;
 }
 .footer__productCard {
     font-size: 8pt;
